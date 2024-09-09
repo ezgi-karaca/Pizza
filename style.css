@@ -69,6 +69,7 @@ body {
   height: 4rem;
   border-radius: 2rem;
   margin-top: 2rem;
+  cursor: pointer;
 }
 
 .main-section {
@@ -159,6 +160,7 @@ body {
   font-size: 0.7rem;
   border-radius: 1.25rem ;
   margin-left: -0.5rem;
+  cursor: pointer;
 }
 
 .second-row {
@@ -169,7 +171,7 @@ body {
 }
 .second-cart {
   background-image: url("public/assets/iteration-2/cta/kart-2.png");
-  background-size: contain;
+  background-size: cover;
   flex: 1;
   border-radius: 1rem;
   display: flex;
