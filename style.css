@@ -70,6 +70,7 @@ body {
   border-radius: 2rem;
   margin-top: 2rem;
 }
+
 .main-section {
   width: 100%;
   height: 5rem;
@@ -101,12 +102,11 @@ body {
 }
 
 .main-section-cart-container {
-  display: flex;
+  display: block;
   width: 100%;
   height: 100vh;
   background: #FAF7F2;
   overflow: auto;
-  justify-content: center;
 }
 
 .cart-container {
@@ -114,6 +114,7 @@ body {
   width: 70rem;
   height: 25rem;
   margin-top: 4rem;
+  margin-left: 42rem;
   justify-content: center;
 }
 .first-cart {
@@ -208,6 +209,31 @@ body {
 }
 .red-word {
   color: #CE2829;
+}
+
+.ara-metin-container {
+  display: block;
+  height: 8rem;
+  margin-top: 2rem;
+}
+.ara-metin {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+.ara-metin a {
+  text-decoration: none;
+  color: #CE2829;
+  font-family: "Satisfy";
+  font-size: 2rem;
+  font-weight: 400;
+}
+.ara-metin h2 {
+  color: #292929;
+  font-family: "Barlow";
+  font-weight: 600;
+  font-size: 2.5rem;
 }
 
 
