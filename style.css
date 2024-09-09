@@ -109,13 +109,16 @@ body {
   overflow: auto;
 }
 
+.triple-cart-section {
+  display: flex;
+  justify-content: center;
+}
+
 .cart-container {
   display: flex;
   width: 70rem;
-  height: 25rem;
+  height: 30rem;
   margin-top: 4rem;
-  margin-left: 42rem;
-  justify-content: center;
 }
 .first-cart {
   background-image: url("public/assets/iteration-2/cta/kart-1.png");
@@ -235,6 +238,48 @@ body {
   font-weight: 600;
   font-size: 2.5rem;
 }
+.yiyecekler-section {
+  display: block;
+  width: 100%;
+}
+.yiyecekler-container {
+  display: flex;
+  height: 6rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.yiyecekler-container nav {
+  display: flex;
+  width: 100%;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.yiyecekler-container nav a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 4rem;
+  width: 11rem;
+  text-decoration: none;
+  font-size: 1,8rem;
+  font-family: "Barlow";
+  font-weight: 500;
+  display: flex;
+  background-color: white;
+  color: black;
+  padding-right: 1rem;
+  border-radius: 2rem;
+
+}
+.yiyecekler-container nav a img {
+  height: 2.5rem;
+  margin-right: 1rem;
+}
+
+
 
 
 
