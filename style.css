@@ -20,7 +20,7 @@ body {
 
 .intro {
   background-image: url("assets/iteration-1/home-banner.png");
-  background-size:contain;
+  background-size: cover;
   background-position: center;
   width: 100%;
   height: 100vh;
@@ -426,6 +426,28 @@ body {
   height: 7rem;
 }
 
+.footer-bottom {
+  display: block;
+}
+.bottom-content {
+  background-color: #1A1A1A;
+  color: white;
+  display: flex;
+  width: 100%;
+  height: 6rem;
+  gap: 45rem;
+  text-align: center;
+  align-items: center;
+  padding-left: 15rem;
+}
+.bottom-content img {
+  height: 1rem;
+}
+.bottom-content p {
+  font-family: "Barlow";
+  font-size: 1rem;
+  font-weight: 300;
+}
 
 
 
