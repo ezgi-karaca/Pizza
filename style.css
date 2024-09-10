@@ -281,6 +281,57 @@ body {
   margin-right: 1rem;
 }
 
+.menu-section {
+  display: block;
+  width: 100%;
+}
+.menu-container {
+  width: 100%;
+  height: 40rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2.5rem;
+}
+
+.terminal-pizza, .aci-pizza, .tavuklu-burger {
+  display: flex;
+  flex-direction: column;
+  width: 25rem;
+  height: 35rem;
+  justify-content: center;
+  position: relative;
+  background-color: white;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+.menu-container h3 {
+  margin-top: 1.2rem;
+  font-family: "Barlow";
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.menu-paragraflari {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 3rem;
+  margin-top: 1rem;
+  font-family: "Barlow";
+  font-size: 1rem;
+  font-weight: 600;
+}
+.yemek-puani {
+  flex: 4;
+}
+.yorumlar {
+  flex: 1;
+}
+.fiyat {
+  flex: 1;
+}
+
 
 
 
