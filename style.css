@@ -542,6 +542,7 @@ body {
  .footer-top {
   display: flex;
   flex-direction: column;
+  margin-left: -5rem;
  }
  .footer-left {
   flex-direction: column;
@@ -560,7 +561,7 @@ body {
   display: flex;
   gap: 18rem;
   justify-content: flex-start;
-  padding-left: 10rem;
+  padding-left: 5rem;
  }
  .footer-bottom p {
   width: 5rem;
