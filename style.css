@@ -1,10 +1,3 @@
-.root {
-  --yellow-color: #FDC913;
-  --lightgray-color: #5F5F5F;
-  --darkgray-color: #292929;
-  --red-color: #CE2829;
-  --beige-color: #FAF7F2;
-}
 * {
   margin: 0;
   padding: 0;
@@ -41,14 +34,11 @@ body {
   flex-direction: column;
   align-items: center;
   width: 70rem;
-  margin-bottom: 0;
 }
 .firsat-metni {
   font-family: "Satisfy";
   color: #FDC913;
   font-size: 2rem;
-  margin-top: 0;
-  margin-bottom: 0;
 }
 .slogan {
   font-family: "Roboto Condensed";
@@ -57,8 +47,6 @@ body {
   font-size: 5rem;
   width: 60%;
   text-align: center;
-  margin-top: 0;
-  margin-bottom: 0;
 }
 .aciktim-button {
   font-family: "Barlow";
@@ -83,11 +71,10 @@ body {
   min-height: 5rem;
   width: 100%;
   display: flex;
-  flex-direction: row;
   justify-content: center;
   align-items: center;
   align-content: center;
-  column-gap: 4.3rem;
+  gap: 4.3rem;
 }
 .main-nav a {
   min-height: 100%;
@@ -454,9 +441,12 @@ body {
 
 @media (max-width: 768px) {
   body {
-    width: 100%;
+    width: 50rem;
     margin: 0;
     padding: 0;
+  }
+  header {
+
   }
   .intro {
     display: flex;
@@ -464,7 +454,7 @@ body {
     background-size: cover;
     background-position: center;
     align-items: center;
-    width: 100%;
+    width: 40rem;
     height: 100vh;
     padding-top: 5rem;
   }
@@ -492,8 +482,89 @@ body {
     font-size: 1rem;
     color: black;
   }
+  .main-section-cart-container{
+    width: 40rem;
+  }
+  .triple-cart-section {
+    width: 100%;
+  }
+ .cart-container {
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  margin-left: -5rem;
+  gap: 1rem;
+  padding-left: 3rem;
+ }
+ .first-cart {
+  width: 25rem;
+ }
+ .second-row {
+  gap: 1rem;
+ }
+ .ara-metin-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 20rem;
+  width: 30rem;
+  padding-left: 5rem;
   
- 
+ }
+ .ara-metin {
+  width: 20rem;
+  height: 20rem;
+  justify-content: center;
+ }
+ .ara-metin h2 {
+  font-weight: 2rem;
+  width: 18rem;
+  text-align: center;
+ }
+ .yiyecekler-container nav {
+  height: 20rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-column-gap: 0;
+  padding-top: 2rem;
+  padding-left: 5rem;
+  padding-bottom: 2rem;
+  padding-right: 5rem;
+ }
+
+ .menu-container {
+  display: flex;
+  flex-direction: column;
+  width: 35rem;
+ }
+
+ .footer-top {
+  display: flex;
+  flex-direction: column;
+ }
+ .footer-left {
+  flex-direction: column;
+  align-items: center;
+ }
+ .first-order {
+  margin-top: 5rem;
+ }
+ .second-order {
+  margin-left: -10rem;
+ }
+ .footer-right {
+  margin-left: -8rem;
+ }
+ .bottom-content {
+  display: flex;
+  gap: 18rem;
+  justify-content: flex-start;
+  padding-left: 10rem;
+ }
+ .footer-bottom p {
+  width: 5rem;
+ }
 }
 
 
