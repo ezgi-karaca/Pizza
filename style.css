@@ -9,6 +9,7 @@ html {
 body {
   margin: 0;
   padding: 0;
+  width: 100%;
 }
 
 .intro {
@@ -33,7 +34,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 70rem;
+
 }
 .firsat-metni {
   font-family: "Satisfy";
@@ -319,29 +320,23 @@ body {
 .fiyat {
   flex: 1;
 }
-
-.footer-top {
+footer {
   background-color: #1A1A1A;
-  ;
-  width: 100%;
+  padding: 1rem 0;
+}
+.footer-top {
   min-height: 25rem;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 5rem;
-}
-.footer-left {
   color: white;
-  display: flex;
-  width: 40rem;
-  gap: 5rem;
 }
 .first-order {
   width: 20rem;
   display: flex;
   flex-direction: column;
   gap: 2rem;
-  margin-left: -5rem;
 }
 .first-order h3 {
   font-family: "Londrina Solid";
@@ -415,20 +410,16 @@ body {
   min-height: 7rem;
 }
 
-.footer-bottom {
-  display: block;
-}
 .bottom-content {
   background-color: #1A1A1A;
   color: white;
   display: flex;
   width: 100%;
+  gap: 10rem;
   min-height: 6rem;
-  gap: 46rem;
   justify-content: center;
   text-align: center;
   align-items: center;
-  padding-left: 3rem;
 }
 .bottom-content img {
   height: 1rem;
@@ -441,11 +432,12 @@ body {
 
 @media (max-width: 768px) {
   body {
-    width: 50rem;
+    width: 100%;
     margin: 0;
     padding: 0;
   }
   header {
+    max-width: 100%;
 
   }
   .intro {
@@ -454,7 +446,7 @@ body {
     background-size: cover;
     background-position: center;
     align-items: center;
-    width: 40rem;
+    max-width: 100%;
     height: 100vh;
     padding-top: 5rem;
   }
@@ -462,11 +454,8 @@ body {
     font-size: 3rem;
   }
   .slogan-container {
-    width: 40rem;
   }
-  .slogan {
-    font-size: ;
-  }
+ 
   .main-nav {
     height: 20rem;
     display: grid;
@@ -483,7 +472,7 @@ body {
     color: black;
   }
   .main-section-cart-container{
-    width: 40rem;
+    width: 100%;
   }
   .triple-cart-section {
     width: 100%;
@@ -539,33 +528,22 @@ body {
   width: 35rem;
  }
 
+ footer {
+  display: flex;
+  flex-direction: column;
+ }
  .footer-top {
+  display: inline-block;
+  align-self: center;
+ }
+ 
+ .footer-bottom {
   display: flex;
-  flex-direction: column;
-  margin-left: -5rem;
+  justify-content: space-between;
  }
- .footer-left {
-  flex-direction: column;
-  align-items: center;
- }
- .first-order {
-  margin-top: 5rem;
- }
- .second-order {
-  margin-left: -10rem;
- }
- .footer-right {
-  margin-left: -8rem;
- }
- .bottom-content {
-  display: flex;
-  gap: 18rem;
-  justify-content: flex-start;
-  padding-left: 5rem;
- }
- .footer-bottom p {
-  width: 5rem;
- }
+
+
+
 }
 
 
